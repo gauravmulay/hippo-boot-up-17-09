@@ -1,0 +1,4 @@
+definitions:
+  config:
+    /hippo:configuration/hippo:userroles/japanese.blog.access:
+      jcr:primaryType: hipposys:userrole

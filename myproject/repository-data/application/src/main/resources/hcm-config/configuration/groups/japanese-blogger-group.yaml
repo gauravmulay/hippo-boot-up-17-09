@@ -1,0 +1,15 @@
+definitions:
+  config:
+    /hippo:configuration/hippo:groups/japanese-blogger-group:
+      jcr:primaryType: hipposys:group
+      hipposys:securityprovider: internal
+      hipposys:userroles:
+        .meta:category: system
+        .meta:add-new-system-values: true
+        type: string
+        value: [japanese.blog.access, xm.default-user.editor]
+      hipposys:members:
+        .meta:category: system
+        .meta:add-new-system-values: true
+        type: string
+        value: [japaneseBlogger1]

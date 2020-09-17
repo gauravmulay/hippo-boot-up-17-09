@@ -1,0 +1,14 @@
+definitions:
+  config:
+    /hippo:configuration/hippo:domains/content/content-domain/exclude-indian-blogs:
+      jcr:primaryType: hipposys:facetrule
+      hipposys:equals: false
+      hipposys:facet: jcr:path
+      hipposys:type: Reference
+      hipposys:value: /content/documents/myproject/blog/indian-blogs
+    /hippo:configuration/hippo:domains/content/content-domain/exclude-japanese-blogs:
+      jcr:primaryType: hipposys:facetrule
+      hipposys:equals: false
+      hipposys:facet: jcr:path
+      hipposys:type: Reference
+      hipposys:value: /content/documents/myproject/blog/japanese-blogs

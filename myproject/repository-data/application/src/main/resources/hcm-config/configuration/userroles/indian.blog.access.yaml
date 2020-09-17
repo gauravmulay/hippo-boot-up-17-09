@@ -1,0 +1,4 @@
+definitions:
+  config:
+    /hippo:configuration/hippo:userroles/indian.blog.access:
+      jcr:primaryType: hipposys:userrole
